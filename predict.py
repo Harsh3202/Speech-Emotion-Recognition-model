@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 import os
 
-model = load_model("/kaggle/working/speech_classification.h5")
+model = load_model("||YOUR MODEL PATH||")
 labels = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'ps', 'sad', 'surprise']
 
 def extract_actual_emotion(file_path):
@@ -25,7 +25,7 @@ def predict_emotion(file):
     return emotion
 
 if __name__ == "__main__":
-    path = "/kaggle/input/toronto-emotional-speech-set-tess/TESS Toronto emotional speech set data/YAF_sad/YAF_book_sad.wav"
+    path = "||YOUR PATH FILE||"
     actual = extract_actual_emotion(path)
     predicted = predict_emotion(path)
 
