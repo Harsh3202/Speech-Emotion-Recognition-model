@@ -88,6 +88,8 @@ The model was trained using:
 
 ## 📸 Screenshots
 
-![alt text](images/your_image.png)`)*
+![alt text](https://github.com/Harsh3202/Speech-Emotion-Recognition-model/blob/afe8af50c0947a15b5e829af0ea6545548a9be1c/Screenshot%202025-05-17%20003619.png)*
+![alt text](https://github.com/Harsh3202/Speech-Emotion-Recognition-model/blob/afe8af50c0947a15b5e829af0ea6545548a9be1c/Screenshot%202025-05-17%20003713.png)*
+
 
 ---
